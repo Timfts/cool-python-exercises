@@ -1,0 +1,3 @@
+* should open a window
+* drag a image to the window
+* open image
