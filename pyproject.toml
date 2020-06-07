@@ -11,7 +11,7 @@ mypy = "^0.780"
 
 [tool.poetry.scripts]
 my-script = "tasks.task_example:test"
-start-app = "cool_scripts.main:start_app"
+start = "cool_scripts.main:start_app"
 generate-requirements = "tasks.poetry_scripts:generate_requirements"
 
 [tool.poetry.dev-dependencies]
