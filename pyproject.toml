@@ -7,10 +7,12 @@ authors = ["Tim Fontes"]
 [tool.poetry.dependencies]
 python = "^3.8"
 simple-term-menu = "^0.4.6"
+mypy = "^0.780"
 
 [tool.poetry.scripts]
 my-script = "tasks.task_example:test"
 start-app = "cool_scripts.main:start_app"
+generate-requirements = "tasks.poetry_scripts:generate_requirements"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
