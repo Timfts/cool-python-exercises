@@ -2,7 +2,7 @@
 name = "cool-scripts"
 version = "0.1.0"
 description = ""
-authors = ["Italo Fontes <italo5123@hotmail.com>"]
+authors = ["Tim Fontes"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

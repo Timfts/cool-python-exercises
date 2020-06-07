@@ -1,4 +1,9 @@
-from tkinter import Tk, ttk
+from tkinter import Tk, ttk, Frame
+
+""" class Application(Frame):
+  def createWidgets():
+    self.something = 'something' """
+
 
 class CustomApp(Tk):
   def start(self):
